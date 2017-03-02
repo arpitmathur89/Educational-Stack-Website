@@ -3,110 +3,64 @@
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<title>Tribute Page</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	
+	<title>Educational Stack</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</head>
 	
 	<body>
-		<div class="container">
-			<div class="jumbotron">
-				<div class="row">
-					<div class="col-xs-12">
-						<h1 class="text-center">Dr. Norman Borlaug</h1>
-						<h2 class="text-center"><em>The man who saved a billion lives</em></h2>
-						<div class="thumbnail"><img src="Images/mainpic.jpeg" alt="SAmple Image">
-						</div>
-						<section id="resume" class="vc_row section-wrapper vc_custom_1467136235256 vc_row-has-fill"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-    	<div class="section-intro  text-center  vc_custom_1459746613009">
-        	<h2 style="" class="section-title wow fadeInUp">PROJECTS</h2>
-		</div> <!-- .section-intro -->
-		</div></div></div></div></div>
-	</section>
-
-	<section class="vc_row section-wrapper vc_custom_1459810557797 vc_row-has-fill"><div class="container"><div class="row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-        <div class="col-md-12  ">
-            <div class="resume-title">
+		<div id="wrapper">
+		<h1 class="text-center"> Educational Stack </h1>
+			 <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        CONTENTS
+                    </a>
+                </li>
+                <li>
+                    <a href="#">RLC circuit</a>
+                </li>
+                <li>
+                    <a href="#">p–n junction</a>
+                </li>
+                <li>
+                    <a href="#">Bipolar junction transistor</a>
+                </li>
+                <li>
+                    <a href="#">Integrated circuit</a>
+                </li>
+                <li>
+                    <a href="#">Logic gate</a>
+                </li>
+                <li>
+                    <a href="#">Central processing unit</a>
+                </li>
+                <li>
+                    <a href="#">Von Neumann architecture</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+		
+		   <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Simple Sidebar</h1>
+                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
             </div>
-            <div class="resume">
-                <ul class="timeline">
-					<li class="">
-						<div class="posted-date">
-							<span class="month">July 2016</span>
-						</div><!-- /posted-date -->
-						<div class="timeline-panel wow fadeInUp">
-							<div class="timeline-content">
-								<div class="timeline-heading">
-									<h3>5Caster - A Navigation and Weather Forecast application</h3>
-									<span>Esri</span>
-								</div><!-- /timeline-heading -->
-								<div class="timeline-body">
-									<p>As member of the team 5Casters that participated and reached the final round of the 2016 Esri Intern Hackathon, we developed an android application that helps the user navigate to his/her destination safely by avoiding bad weather.
-										The application asks the user for weather parameters. Depending on the weather parameters and the weather data fetched, the application displays polygons that represent areas with unfavorable weather conditions.
-										The application also allows the user to re-route and continue traveling.
-										The application was created using ArcGIS Runtime SDK for Xamarin along with other Esri technologies.</p>
-								</div><!-- /timeline-body -->
-							</div> <!-- /timeline-content -->
-						</div><!-- /timeline-panel -->
-					</li>
-
-					<li class="timeline-inverted">
-						<div class="posted-date">
-							<span class="month">July 2016</span>
-						</div><!-- /posted-date -->
-						<div class="timeline-panel wow fadeInUp">
-							<div class="timeline-content">
-								<div class="timeline-heading">
-									<h3>Source Code Analyzers for ArcGIS Runtime SDK for .NET</h3>
-									<span>Esri</span>
-								</div><!-- /timeline-heading -->
-								<div class="timeline-body">
-									<p>Created code analyzers using Roslyn (.NET Compiler platform) for Microsoft Visual Studio. These analyzers provide domain specific code analysis via NuGet packages. These analyzers provide warnings to the users as they type the code. The diagnostic also gives user the option to use the Code-fix that automatically changes the code to fix the warning.</p>
-								</div><!-- /timeline-body -->
-							</div> <!-- /timeline-content -->
-						</div><!-- /timeline-panel -->
-					</li>
-
-					<li class="">
-						<div class="posted-date">
-							<span class="month">June 2016</span>
-						</div><!-- /posted-date -->
-						<div class="timeline-panel wow fadeInUp">
-							<div class="timeline-content">
-								<div class="timeline-heading">
-									<h3>ArcGIS Runtime GeoDesign Application</h3>
-									<span>Esri</span>
-								</div><!-- /timeline-heading -->
-								<div class="timeline-body">
-									<p>Developed a Touch enabled 3D application using the ArcGIS Runtime SDK for .NET. The application was displayed at the 2016 Annual Esri User Conference. The application allows the user to re-model a parking space by dragging 3D models of buildings and trees. The application also allows the user to manipulate these models using touch actions.</p>
-								</div><!-- /timeline-body -->
-							</div> <!-- /timeline-content -->
-						</div><!-- /timeline-panel -->
-					</li>
-
-					<li class="timeline-inverted">
-						<div class="posted-date">
-							<span class="month">January 2016 – April 2016</span>
-						</div><!-- /posted-date -->
-						<div class="timeline-panel wow fadeInUp">
-							<div class="timeline-content">
-								<div class="timeline-heading">
-									<h3>DAY - A Programming Language (Compiler Design Project)</h3>
-									<span>Arizona State University</span>
-								</div><!-- /timeline-heading -->
-								<div class="timeline-body">
-									<p>Created a programming language based on Java. Used ANTLR as the parsing tool. Formulated our very own grammar. The code can be executed using the console window. Converts high level code (.day) to intermediate code (.dpp) and this .dpp file is then executed by our runtime.</p>
-								</div><!-- /timeline-body -->
-							</div> <!-- /timeline-content -->
-						</div><!-- /timeline-panel -->
-					</li>
-					</ul>
-			</div>
-		</div></div></div></div></div></div>
-	</section>
-					</div>
-				</div>
-			</div>
+        </div>
+        <!-- /#page-content-wrapper -->
 		</div>	
 	</body>
 	
