@@ -1,10 +1,17 @@
 #top-header-container{
 	margin : 0;
+	margin-left : 0;
+	margin-right : 0;
 	padding-top : 62;
 	padding-bottom : 62;
 	background-color:#1fab54;
 }
 
-#sidebar-wrapper{
-	position: fixed;
+#side{
+	color: #0d923f;
 }
+
+a { color:black}
+
+a:active { color:#0d923f; }
+
