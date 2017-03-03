@@ -1,0 +1,10 @@
+#top-header-container{
+	margin : 0;
+	padding-top : 62;
+	padding-bottom : 62;
+	background-color:#1fab54;
+}
+
+#sidebar-wrapper{
+	position: fixed;
+}
